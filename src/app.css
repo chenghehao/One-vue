@@ -1,0 +1,270 @@
+/*
+ * global
+ */
+
+.size-12 {font-size: 12px;}
+.size-14 {font-size: 14px;}
+.size-16 {font-size: 16px;}
+.size-17 {font-size: 17px;}
+.size-20 {font-size: 20px;}
+.size-25 {font-size: 25px;}
+
+.navbar-fixed .page-content, .navbar-through .page-content {
+  background: #eee;
+}
+
+.page .toolbar .toolbar-inner a {
+  color: #8e8e93;
+}
+
+.page .toolbar .toolbar-inner a.link:nth-child(1) {
+  padding-left: 12px;
+}
+
+.page .toolbar-inner a.link:nth-child(2) {
+  position: relative;
+  left: -10px;
+}
+
+.page .toolbar-inner a.link:nth-child(3) {
+  position: relative;
+  left: -20px;
+}
+
+.page .toolbar .toolbar-inner a.link .icon {
+  font-size: 17px;
+}
+
+.page .toolbar .toolbar-inner a:nth-child(4) {
+  font-size: 12px;
+  padding-right: 12px;
+}
+
+.row {
+  margin-bottom: 10px;
+  background: #fff;
+}
+
+/* 文章列表底部工具条 */
+.footerbar {
+  padding: 15px 0 5px 0;
+}
+
+.footerbar > a {
+  font-size: 12px;
+  color: gray;
+}
+
+.footerbar > a .icon {
+  font-size: 15px;
+  color: gray;
+}
+
+.footerbar > a.link {
+  float: right;
+  padding-left: 15px;
+}
+
+/* home */
+.home-page .page-content {
+	padding-top: 0;
+}
+
+.home-page .row:first-child {
+	margin-bottom: 0;
+}
+
+.page .weather {
+	text-align: center;
+  padding: 5px 0;
+}
+
+.page .poster .volume {
+	position: absolute;
+	padding: 5px 7px;
+	color: #fff;
+}
+
+.page .poster .pic_info {
+	text-align: center;
+  padding-top: 5px;
+}
+
+.page .poster .forward {
+  padding: 15px 30px;
+  text-align: justify;
+  line-height: 2;
+}
+
+.page .poster .words_info {
+	text-align: center;
+}
+
+.page .footerbar.note {
+	padding: 18px 10px 10px 10px;
+}
+
+
+/* 文章列表页  */
+
+.node-row {
+	padding: 5px 15px;
+}
+
+.node .header .category {
+  text-align: center;
+}
+
+.node .header .title {
+  font-weight: 200;
+  padding-top: 10px;
+}
+
+.node .header .author, .node .content .forward {
+  padding: 8px 1px;
+  text-align: justify;
+  line-height: 1.7;
+}
+
+.node .content .img_url_dashed {
+  border-top: 6px dashed #ddd;
+  border-bottom: 6px dashed #ddd;
+  padding-top: 4px;
+}
+
+.node .content .subtitle {
+  text-align: right;
+}
+
+/* 文章详情页 */
+.page .article-row {
+  padding: 30px 20px;
+}
+
+.page .article .hp_split {
+  height: 4px;
+  background: #000;
+  width: 25vw;
+  margin: 15px 0;
+}
+
+.page .article .hp_m_title, .page .article .hp_m_story_author {
+  text-align: center;
+}
+
+.page .article .hp_content {
+  text-align: justify;
+  line-height: 2;
+}
+
+.page .author_info {
+  margin-top: 30px;
+}
+
+.page .author_info .at_split {
+  height: 3px;
+  width: 21vw;
+  background: #000;
+  margin: 5px 0;
+}
+
+.page .author_info .hp_author_introduce {
+  padding-top: 10px;
+}
+
+.page .author_info .at_content {
+  list-style: none;
+  padding: 0;
+}
+
+.page .author_info .at_content li {
+  float: left;
+}
+
+.page .author_info .at_content img {
+  border-radius: 50%
+}
+
+.page .author_info .at_content .wb_name {
+  padding-left: 15px;
+}
+
+.page .author_info .at_content .wb_name small {
+  display: block;
+}
+
+.page .author_info .at_content .follow {
+  float: right;
+}
+
+/* 电影 */
+
+.movie-page .movie-covers {
+  background: #fff;
+}
+
+.movie-page .movie-covers img {
+  height: 210px;
+}
+
+.movie-page .swiper-pagination-custom {
+  color: #fff;
+  text-align: right;
+  width: 98%;
+}
+
+/* 阅读 问答*/
+.page .question-row {
+  padding-bottom: 10px;
+}
+
+.page .question {
+  padding: 10px 12px;
+}
+
+.page .question .split {
+  padding: 10px 0;
+}
+
+.page .question .split div {
+  float: left;
+}
+
+.page .question .split .l_s, .page .question .split .r_s {
+  width: 48%;
+  height: 2px;
+  background: #eee;
+}
+
+.page .question .split .c_c {
+  width: 4%;
+  height: 10px;
+}
+
+.page .question .split .c_c span:before {
+  content: ' ';
+}
+
+.page .question .split .c_c div {
+  background: #ddd;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin: -2px 0 0px 3px;
+}
+
+.page .question .answerer {
+  padding: 20px 0 0 0;
+}
+
+.page .question .answer_content {
+  text-align: justify;
+  line-height: 2;
+}
+
+.page .question .underline {
+  height: 1px;
+  width: 100%;
+  background: #eee;
+  margin: 35px 0 15px 0;
+}
